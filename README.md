@@ -9,13 +9,19 @@ Select the file to refactor.(Note: The resulting files will be saved to the same
 Example:
 -------
 Input:
-//Location
+
+//Location 
+
 implementation "com.google.android.gms:play-services-location:16.0.0"
 
 Output(app):
+
 //Location
+
 implementation "com.google.android.gms:play-services-location:${rootVersion.playServicesLocation}"
 
 Output(secondary):
+
 //Location
+
 playServicesLocation = "16.0.0"
